@@ -11,7 +11,7 @@
 2- Instale as dependencias com `npm install` ou `npm i`;
 3- Rode a aplicação com `npm start`;
 
-### Observações
+#### Observações
 
 Estamos utilizando `supervisor` para restartar a aplicação automaticamente caso ocorram crashs, então pode você pode simplesmente executar um `npm start` e ir passear com seu cachorro.
 
