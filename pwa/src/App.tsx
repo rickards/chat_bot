@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { CssBaseline } from "@material-ui/core";
 
-import Home from "./pages/Home";
+import Chat from "./pages/Chat";
 
 /** Aplicação principal */
 export default class App extends Component {
@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <React.Fragment>
         <CssBaseline />
-        <Home />
+        <Chat />
       </React.Fragment>
     );
   }
