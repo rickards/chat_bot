@@ -48,7 +48,6 @@ public class ApiResponseService extends IntentService {
         // Create your bot passing the token received from @BotFather
         Log.d("BOTFFATHER", MainActivity.KEY_API_BOT_TELEGRAM);
         TelegramBot bot = new TelegramBot(MainActivity.KEY_API_BOT_TELEGRAM);
-//        TelegramBot bot = TelegramBotAdapter.build("764469925:AAELKTZhJkgK3Zx_H1Kgg1EPCl7EbPCmeZw");
         //objeto responsável por receber as mensagens
         GetUpdatesResponse updatesResponse;
         //objeto responsável por gerenciar o envio de respostas
