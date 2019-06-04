@@ -1,9 +1,7 @@
 import React, { Component, ReactNode } from "react";
 import AppBar from "@material-ui/core/AppBar";
-import IconButton from "@material-ui/core/IconButton";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import IconFace from "@material-ui/icons/Face";
 import { Avatar } from "@material-ui/core";
 
 import chicoImg from "../../images/chico.png";
