@@ -1,11 +1,65 @@
+.chatContainer {
+  max-height: 77%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.human {
+  background-color: #d6f9dd !important;
+  transform: translateX(30px);
+  &::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #d6f9dd;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #d6f9dd;
+    border-bottom: 10px solid transparent;
+    right: -4%;
+  }
+}
+.bot {
+  background-color: rgb(240, 240, 240) !important;
+  transform: translateX(-30px);
+  &::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid rgb(240, 240, 240);
+    border-top: 10px solid rgb(240, 240, 240);
+    border-bottom: 10px solid transparent;
+    left: -4%;
+  }
+}
+
+.paperChat {
+  padding: 10px;
+  animation: fadeIn 180ms linear;
+}
+
 .footer {
   position: fixed;
   bottom: 20px;
   left: 10%;
   width: 80%;
 
-  .paper {
+  .paperInput {
     display: flex;
+    padding: 10px 15px;
     justify-content: center;
+    animation: fadeIn 250ms linear;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
