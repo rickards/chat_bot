@@ -1,14 +1,11 @@
 .footer {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  bottom: 20px;
+  left: 10%;
   width: 80%;
-  margin: 0 auto;
-}
-.root {
-  padding: 4px 4px;
-  display: "flex";
-  align-items: "center";
-  width: 100%;
-  height: fit-content;
+
+  .paper {
+    display: flex;
+    justify-content: center;
+  }
 }
